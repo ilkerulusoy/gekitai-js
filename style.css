@@ -1,0 +1,24 @@
+#board {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 5px;
+}
+
+#board div {
+  background-color: gray;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font-size: 2rem;
+}
